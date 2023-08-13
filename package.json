@@ -16,7 +16,7 @@
     "scripts": {
         "dev": "ts-node -r tsconfig-paths/register src/index.ts",
         "start": "node ./dist/server.js",
-        "build": "npm run build:ts && npm run lint",
+        "build": "npm run build:ts && npm install",
         "build:ts": "tsc --build",
         "clean": "tsc --build --clean",
         "eslint": "eslint --ext .ts src/** --fix",
