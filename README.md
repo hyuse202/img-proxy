@@ -1,1 +1,1 @@
-author: eltik
+author: [eltik](https://github.com/eltik)
